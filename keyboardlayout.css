@@ -1,0 +1,80 @@
+.container {
+  border: 0.5px solid gray;
+  padding: 15px;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border: 0.5px solid gray;
+  border-radius: 30%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.space {
+  border-radius: 10px;
+  width: 280px !important;
+}
+
+.tab,
+.caps,
+.shiftOne,
+.shiftTwo,
+.ctrlOne,
+.ctrlTwo,
+.enter {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.container .selection {
+  display: inline-block;
+  border: 0.5px solid gray;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(224, 223, 223);
+  #speed {
+    border: none;
+    background-color: rgb(224, 223, 223);
+  }
+  #speed:focus {
+    outline: none;
+  }
+}
+
+.dim {
+  background-color: rgb(18, 186, 122);
+  color: white;
+  font-size: x-large;
+  transition: 0.5s;
+}
+
+#start {
+  background-color: rgb(18, 186, 122);
+}
+
+.selection {
+  cursor: pointer;
+}
+
+.signature {
+  font-size: xx-small;
+  text-align: left;
+  padding-left: 5px;
+}
